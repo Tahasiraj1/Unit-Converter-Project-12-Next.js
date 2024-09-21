@@ -118,7 +118,7 @@ export default function UnitConverter() {
                 <p className="mb-8 text-center">
                     Convert values between different units.
                 </p>
-                <div className="flex justify-between grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Select for input unit */}
                     <div className="space-y-2 w-48">
                         <Label htmlFor="input-unit">From</Label>
