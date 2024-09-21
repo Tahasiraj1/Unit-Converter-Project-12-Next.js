@@ -112,7 +112,7 @@ export default function UnitConverter() {
     };
 
     return (
-        <div className="p-4 sm:p-8 flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-orange-300 via-orange-200 to-yellow-200 dark:bg-gray-900">
+        <div className="p-4 sm:p-8 flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-orange-400 via-orange-300 to-yellow-200 dark:bg-gray-900">
             <div className="text-black max-w-md w-full p-6 bg-white/90 rounded-3xl shadow-2xl">
                 <h1 className="text-2xl font-bold mb-1 text-center">Unit Converter</h1>
                 <p className="mb-8 text-center">
@@ -120,7 +120,7 @@ export default function UnitConverter() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Select for input unit */}
-                    <div className="space-y-2 w-48">
+                    <div className="space-y-2">
                         <Label htmlFor="input-unit">From</Label>
                         <Select onValueChange={handleInputUnitChange}>
                             <SelectTrigger className="rounded-3xl border-2 border-gray-300 focus:border-gray-500">
@@ -143,7 +143,7 @@ export default function UnitConverter() {
                         </Select>
                     </div>
                     {/* Select for output unit */}
-                    <div className="space-y-2 w-48">
+                    <div className="space-y-2">
                         <Label htmlFor="output-unit">To</Label>
                         <Select onValueChange={handleOutputUnitChange}>
                             <SelectTrigger className="rounded-3xl border-2 border-gray-300 focus:border-gray-500">
@@ -174,7 +174,7 @@ export default function UnitConverter() {
                         placeholder="Enter value"
                         value={inputValue || ""}
                         onChange={handleInputChange}
-                        className="w-full border-2 border-gray-300 rounded-3xl"
+                        className="w-full border-2 border-gray-300 rounded-3xl focus:border-gray-500"
                         />
                     </div>
                     {/* Button to trigger conversion */}
