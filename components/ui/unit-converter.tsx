@@ -120,7 +120,7 @@ export default function UnitConverter() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Select for input unit */}
-                    <div className="space-y-2 w-48">
+                    <div className="space-y-2">
                         <Label htmlFor="input-unit">From</Label>
                         <Select onValueChange={handleInputUnitChange}>
                             <SelectTrigger className="rounded-3xl border-2 border-gray-300 focus:border-gray-500">
@@ -143,7 +143,7 @@ export default function UnitConverter() {
                         </Select>
                     </div>
                     {/* Select for output unit */}
-                    <div className="space-y-2 w-48">
+                    <div className="space-y-2">
                         <Label htmlFor="output-unit">To</Label>
                         <Select onValueChange={handleOutputUnitChange}>
                             <SelectTrigger className="rounded-3xl border-2 border-gray-300 focus:border-gray-500">
