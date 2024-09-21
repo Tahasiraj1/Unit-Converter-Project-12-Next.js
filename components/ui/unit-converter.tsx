@@ -112,7 +112,7 @@ export default function UnitConverter() {
     };
 
     return (
-        <div className="p-4 sm:p-8 flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-orange-300 via-orange-200 to-yellow-200 dark:bg-gray-900">
+        <div className="p-4 sm:p-8 flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-orange-400 via-orange-300 to-yellow-200 dark:bg-gray-900">
             <div className="text-black max-w-md w-full p-6 bg-white/90 rounded-3xl shadow-2xl">
                 <h1 className="text-2xl font-bold mb-1 text-center">Unit Converter</h1>
                 <p className="mb-8 text-center">
